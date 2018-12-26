@@ -12,5 +12,6 @@ class maior2
 
         mnum = (num1 > num2) ? num1 : num2;
         JOptionPane.showMessageDialog(null,"O maior valor entre "+num1+" e "+num2+" é: "+mnum);
+        System.out.println("O maior valor entre "+num1+" e "+num2+" é: "+mnum);
     }
 }
